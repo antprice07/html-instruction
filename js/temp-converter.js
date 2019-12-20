@@ -3,5 +3,5 @@ function calculate() {
     var celCtrl = document.getElementById("cel");
     var input = fahrCtrl.value;
     input = input * 9 / 5 + 32;
-    celCtrl.value = input;
+    celCtrl.innerText = input;
 }
