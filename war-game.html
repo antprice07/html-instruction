@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>War!(Huh! Yeahhh!)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/war-game.js"></script>
+</head>
+<body style="font-size: 2em;">
+    <h1>War!</h1>
+    <span>My Score: </span>
+    <span id="myscore">20</span>
+    <span> | Opp Score: </span>
+    <span id="oppscore">20</span>
+    <span><br>My number:</span>
+    <input id="score" type="number" disabled>
+    <button style="background-color: blue; color: white;font-size: 1.5em;" onclick="play()">Play</button>
+    <span><br></span>
+    <button style="background-color: green; color: white; font-size: 1.5em;" onclick="winner()">Winner</button>
+    <button style="background-color: red; color: white; font-size: 1.5em;" onclick="loser()">Loser</button>
+    
+</body>
+</html>
