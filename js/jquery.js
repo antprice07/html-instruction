@@ -7,6 +7,6 @@ $().ready(()=>{
     })
 
     $("#sty").click(()=>{
-        $("#abc").css("color","red");
+        $("#abc").css("color","red").css("fontWeight","bold");
     })
 })
